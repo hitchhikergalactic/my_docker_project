@@ -10,6 +10,7 @@ Wikipedia defines Docker as
     an open-source project that automates the deployment of software applications inside containers by providing an additional layer of abstraction and automation of OS-level virtualization on Linux.
 
 Wow! That's a mouthful. In simpler words, Docker is a tool that allows developers, sys-admins etc. to easily deploy their applications in a sandbox (called containers) to run on the host operating system i.e. Linux. The key benefit of Docker is that it allows users to package an application with all of its dependencies into a standardized unit for software development. Unlike virtual machines, containers do not have high overhead and hence enable more efficient usage of the underlying system and resources.
+
 What are containers?
 
 The industry standard today is to use Virtual Machines (VMs) to run software applications. VMs run applications inside a guest Operating System, which runs on virtual hardware powered by the server’s host OS.
@@ -30,9 +31,11 @@ Due to these benefits, containers (& Docker) have seen widespread adoption. Comp
 What will this tutorial teach me?
 
 This tutorial aims to be the one-stop shop for getting your hands dirty with Docker. Apart from demystifying the Docker landscape, it'll give you hands-on experience with building and deploying your own webapps on the Cloud. We'll be using Amazon Web Services to deploy a static website, and two dynamic webapps on EC2 using Elastic Beanstalk and Elastic Container Service. Even if you have no prior experience with deployments, this tutorial should be all you need to get started.
+
 Getting Started
 
-This document contains a series of several sections, each of which explains a particular aspect of Docker. In each section, we will be typing commands (or writing code). All the code used in the tutorial is available in the Github repo.
+This document contains a series of several sections, each of which explains a particular aspect of Docker. In each section, we will be typing commands (or writing code).
+
 
     Note: This tutorial uses version 18.05.0-ce of Docker. If you find any part of the tutorial incompatible with a future version, please raise an issue. Thanks!
 
